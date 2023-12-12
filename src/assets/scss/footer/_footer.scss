@@ -14,9 +14,11 @@
     background-color: var(--color-darkest);
     background-image: -webkit-gradient(linear, left bottom, left top, from(var(--color-black)), to(var(--color-blacker)));
     background-image: linear-gradient(0deg, var(--color-black), var(--color-blacker));
+
     .footer-top {
         padding: 100px 0;
         padding-bottom: 70px;
+
         .rn-footer-widget {
             .text-big {
                 font-size: 21px;
@@ -26,11 +28,12 @@
                 font-weight: 500;
                 color: var(--color-body);
                 margin-bottom: 30px;
-                
+
                 @media #{$md-layout} {
                     font-size: 20px;
                     padding-right: 0;
                 }
+
                 @media #{$sm-layout} {
                     font-size: 20px;
                     padding-right: 0;
@@ -52,11 +55,12 @@
                 padding-right: 31%;
                 line-height: 28px;
                 margin-bottom: 32px;
+
                 @media #{$sm-layout} {
                     padding-right: 0;
                 }
             }
-            
+
             .inner {
                 margin-top: 13px;
             }
@@ -64,17 +68,21 @@
             .footer-link {
                 list-style: none;
                 padding: 0;
+
                 li {
                     margin-top: 5px;
                     margin-bottom: 5px;
+
                     a {
                         font-size: 14px;
                         display: inline-block;
                         color: var(--color-body);
                         line-height: 25px;
                         transition: 0.3s;
+
                         &:hover {
                             color: var(--color-primary);
+
                             &::after {
                                 width: 100%;
                                 left: 0;
@@ -87,7 +95,7 @@
 
         }
     }
-    
+
     .logo {
         a {
             img {
@@ -96,7 +104,7 @@
         }
     }
 
-    &.variation-two{
+    &.variation-two {
         border-top: 0;
     }
 
@@ -118,6 +126,7 @@
 .newsletter-form {
     display: flex;
     flex-wrap: wrap;
+
     input {
         flex-grow: 1;
         width: auto;

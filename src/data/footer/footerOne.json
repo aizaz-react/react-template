@@ -1,120 +1,65 @@
 [
-    {
-        "id": 1,
-        "title": "Create Website By Doob So Quick Download And Make Your Site."
-    },
-
+    {},
     {
         "id": 2,
         "title": "Services",
         "quicklink": [
             {
                 "id": 1,
-                "text": "About",
-                "url": "/about"
+                "text": "Cloud Computing",
+                "url": "#"
             },
             {
                 "id": 2,
-                "text": "Portfolio",
-                "url": "/portfolio"
+                "text": "Software Development",
+                "url": "#"
             },
             {
                 "id": 3,
-                "text": "Contact",
-                "url": "/contact"
+                "text": "Full Stack Development",
+                "url": "#"
             },
             {
                 "id": 4,
-                "text": "Service",
-                "url": "/service"
+                "text": "App Development",
+                "url": "#"
             }
         ]
     },
-
     {
         "id": 3,
-        "title": "Solutions",
+        "title": "Platform",
         "quicklink": [
             {
                 "id": 1,
-                "text": "Gallery",
-                "url": "/gallery"
+                "text": "Linkedin",
+                "url": "#"
             },
             {
                 "id": 2,
-                "text": "About Us",
-                "url": "/about-us"
+                "text": "Twitter",
+                "url": "#"
             },
             {
                 "id": 3,
-                "text": "Testimonial",
-                "url": "/testimonial"
+                "text": "Facebook",
+                "url": "#"
             },
             {
                 "id": 4,
-                "text": "Timeline",
-                "url": "/timeline"
+                "text": "Instagram",
+                "url": "#"
             }
         ]
     },
-
     {
         "id": 4,
-        "title": "Company",
-        "quicklink": [
-            {
-                "id": 1,
-                "text": "Pricing",
-                "url": "/pricing"
-            },
-            {
-                "id": 2,
-                "text": "Team",
-                "url": "/team"
-            },
-            {
-                "id": 3,
-                "text": "Advance Tab",
-                "url": "/advance-tab"
-            },
-            {
-                "id": 4,
-                "text": "Service",
-                "url": "/service"
-            }
-        ]
+        "title": "Platform"
     },
-
-    {
-        "id": 5,
-        "title": "Resources",
-        "quicklink": [
-            {
-                "id": 1,
-                "text": "About",
-                "url": "/about"
-            },
-            {
-                "id": 2,
-                "text": "Portfolio",
-                "url": "/portfolio"
-            },
-            {
-                "id": 3,
-                "text": "Contact",
-                "url": "/contact"
-            },
-            {
-                "id": 4,
-                "text": "Service",
-                "url": "/service"
-            }
-        ]
-    },
-
+    {},
     {
         "id": 6,
-        "title": "Stay With Us.",
-        "subtitle": "2000+ Our clients are subscribe Around the World"
+        "title": "Company",
+        "subtitle": "Address: 1605 John St, Fort Lee, NJ 07024"
     }
 ]

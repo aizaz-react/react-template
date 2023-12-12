@@ -2,23 +2,20 @@ import React from 'react';
 import SEO from "../common/SEO";
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import {Link} from "react-router-dom";
 import HeaderOne from '../common/header/HeaderOne';
 import CounterUpFour from '../elements/counterup/CounterUpFour';
 import ServiceOne from '../elements/service/ServiceOne';
 import AboutFour from '../elements/about/AboutFour';
-import AdvancePricingOne from '../elements/advancePricing/AdvancePricingOne';
 import BrandOne from '../elements/brand/BrandOne';
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
 
-
 const BannerData = [
     {
         image: "/images/bg/bg-image-20.jpg",
-        title: "Our Web <br /> Agecny Plan.",
-        description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
-    },
+        title: "Our Agency",
+        description: "We help our clients succeed by creating brand identities <br /> digital experiences, and print materials."
+    }
 ]
 
 
@@ -38,11 +35,11 @@ const WebAgency = () => {
                                 <div className="row align-items-center">
                                     <div className="col-lg-12">
                                         <div className="inner text-center">
-                                            <span className="subtitle theme-gradient">Hello! This is WebAgency</span>
+                                            <span className="subtitle theme-gradient">Hello! This is Minds Spark</span>
                                             <h1 className="title" dangerouslySetInnerHTML={{__html: data.title}}></h1>
                                             <p className="description" dangerouslySetInnerHTML={{__html: data.description}}></p>
                                             <div className="button-group mt--30">
-                                                <a className="btn-default btn-large round" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Explore Now</a>
+                                                <a className="btn-default btn-large round" href="#">Explore Now</a>
                                                 <a className="btn-default btn-border btn-large round" href="#">Contact Us</a>
                                             </div>
                                         </div>
@@ -60,9 +57,9 @@ const WebAgency = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <div className="thumbnail">
+                                {/* <div className="thumbnail">
                                     <img className="radius w-100" src="./images/bg/bg-image-21.jpg" alt="Images" />
-                                </div>
+                                </div> */}
                                 {/* Start Elements Area  */}
                                 <div className="rwt-counterup-area ptb--60">
                                     <div className="col-lg-12">
@@ -88,10 +85,10 @@ const WebAgency = () => {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <p className="mb--10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
-                                <div className="readmore-btn">
+                                <p className="mb--10">Welcome to our creative digital agency, where innovation meets brand excellence. With a passion for crafting compelling digital experiences, we collaborate with forward-thinking companies to elevate their online presence. From cutting-edge design to strategic digital marketing, we are dedicated to bringing your brand to life in the digital landscape. Our talented team combines creativity and technical expertise to deliver solutions that resonate with your audience.</p>
+                                {/* <div className="readmore-btn">
                                     <Link className="btn-read-more" to="#"><span>View More</span></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -120,29 +117,9 @@ const WebAgency = () => {
                 </div>
                 {/* End Service Area  */}
 
-                <AboutFour image="./images/about/contact-image.jpg" />
+                <AboutFour image="./images/about/Contact-image.jpg" />
 
-                {/* Start Elements Area  */}
-                <div className="rwt-pricingtable-area rn-section-gapBottom">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Our Pricing Plan"
-                                    title = "Web Pricing Plan."
-                                    description = ""
-                                />
-                            </div>
-                        </div>
-                        <div className="row mt--30">
-                            <div className="col-lg-8 offset-lg-2">
-                                <AdvancePricingOne />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
                 {/* End Elements Area  */}
 
                 {/* Start Brand Area  */}
@@ -161,7 +138,7 @@ const WebAgency = () => {
                         </div>
                         <div className="row">
                             <div className="col-lg-12 mt--40">
-                                <BrandOne brandStyle="brand-style-1" />
+                                <BrandOne brandStyle="brand-style-1"/>
                             </div>
                         </div>
                     </div>

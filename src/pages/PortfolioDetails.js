@@ -10,7 +10,7 @@ const PortfolioDetails = ({match: {params: {id}}}) => {
     const data = PortfolioData.filter(portfolio => portfolio.id === portfolioId);
     return (
         <>
-            <SEO title="Portfolio Details || Doob" />
+            <SEO title="Minds Spark" />
             <Layout>
                 <PortfolioDetailsContent data={data[0]} />
             </Layout>

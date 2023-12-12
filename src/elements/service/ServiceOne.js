@@ -7,17 +7,17 @@ const ServiceList = [
     {
         icon: <FiActivity />,
         title: 'Awarded Design',
-        description: 'There are many variations variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: 'Welcome to Minds Spark, where our awarded designs converge with innovation to redefine the digital landscape. As pioneers in crafting visually striking solutions, we transform ideas into profitable realities. Explore a world where excellence is the standard, and your brand stands out with distinction.'
     },
     {
         icon: <FiCast />,
         title: 'Design & Creative',
-        description: 'Passages there are many variations variations  of of Lorem Ipsum available, but the majority have suffered.'
+        description: 'Step into a realm of unparalleled design and creativity at Minds Spark. Our services transcend conventional boundaries, breathing life into your brand through innovative design solutions. Unleash the power of creativity to elevate your brand and captivate your audience.'
     },
     {
         icon: <FiMap />,
         title: 'App Development',
-        description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: 'As a leading mobile app development agency, we research your idea and convert it into a profitable solution for you. At Minds Spark, we are committed to bringing these ideas to life by using technology to streamline processes and bring clarity to raw concepts.'
     },
 ]
 

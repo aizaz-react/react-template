@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 import React from 'react'
 
 
-const SEO = ( {title} ) => {
+const SEO = () => {
     return (
         <>
             <meta charSet="utf-8" />
-            <title>{title} || Doob Business & Finance React JS Template</title>
+            <title>Minds Spark</title>
             <meta name="robots" content="noindex, follow" />
-            <meta name="description" content="Doob – Business & Finance React JS Template" />
+            <meta name="description"/>
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         </>
     )

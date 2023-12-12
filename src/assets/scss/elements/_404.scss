@@ -3,11 +3,13 @@
 -----------------------------*/
 .error-inner {
     text-align: center;
+
     h1 {
         font-size: 200px;
         line-height: 1;
         color: var(--color-primary);
         font-weight: var(--p-bold);
+
         @media #{$sm-layout} {
             font-size: 100px;
             line-height: 1;
@@ -26,9 +28,10 @@
         font-weight: var(--p-regular);
         margin-bottom: 30px;
     }
-    
+
     .blog-search {
         display: inline-block;
+
         input {
             min-width: 500px;
         }
@@ -38,4 +41,3 @@
         margin-top: 30px;
     }
 }
-

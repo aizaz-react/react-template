@@ -29,9 +29,9 @@ function VideoTwo({galleryItem , imagename}) {
                     <div className="thumbnail">
                         <img className="radius-small" src={`${imagename}`} alt="Corporate Image" />
                     </div>
-                    <div className="video-icon">
+                    {/* <div className="video-icon">
                         <button className="btn-default rounded-player" onClick={ () => setToggler(!toggler) }><span>{iconHandel()}</span></button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="video-lightbox-wrapper">

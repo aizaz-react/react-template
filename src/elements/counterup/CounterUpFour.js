@@ -8,11 +8,11 @@ const Data = [
         countTitle: 'Happy Clients.',
     },
     {
-        countNum : 575,
+        countNum : 565,
         countTitle: 'Employees',
     },
     {
-        countNum : 69,
+        countNum : 79,
         countTitle: 'Useful Programs',
     },
     {

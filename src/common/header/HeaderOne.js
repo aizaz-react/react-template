@@ -6,7 +6,6 @@ import MobileMenu from './MobileMenu';
 import Darkmode from "./Darkmode";
 import useStickyHeader from "./useStickyHeader";
 
-
 const HeaderOne = ({btnStyle, HeaderSTyle}) => {
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
     const onCanvasHandler = () => {
@@ -16,7 +15,6 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
     let [check, setCheck] = useState(true);
     const sticky = useStickyHeader( 50 );
     const headerClasses = `header-default ${(sticky && check) ? 'sticky' : ''}`
-    const { clientHeight } = ref;
     
     const checkChange = (value) => {
       setCheck(value);
@@ -28,8 +26,8 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                     <div className="row align-items-center row--0">
                         <div className="col-lg-3 col-md-6 col-4">
                             <Logo 
-                                image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                                image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
+                                image={`/images/logo/dark-colored.svg`}
+                                image2={`/images/logo/dark-colored.svg`}
                             />
                         </div>
                         <div className="col-lg-9 col-md-6 col-8 position-static">
@@ -37,9 +35,9 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                 <nav className="mainmenu-nav d-none d-lg-block">
                                     <Nav />
                                 </nav>
-                                <div className="header-btn">
-                                    <a className={`btn-default ${btnStyle}`} target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">BUY NOW</a>
-                                </div>
+                                {/* <div className="header-btn">
+                                    <a className={`btn-default ${btnStyle}`} href="#">BUY NOW</a>
+                                </div> */}
                                 <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                                     <div className="hamberger">
                                         <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>

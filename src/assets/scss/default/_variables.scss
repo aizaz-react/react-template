@@ -16,7 +16,7 @@
     --color-secondary-darker: #190301;
     --color-light-green-darker: #001f27;
     --color-pink-darker: #2f011d;
-    
+
     // Typo Color 
     --color-heading: #ffffff;
     --color-body: #acacac;
@@ -45,7 +45,7 @@
     --color-lightest: #F0F2F5;
 
     --color-white: #ffffff;
-    
+
 
 
     // Notify Colors 
@@ -73,14 +73,14 @@
     --color-extra03: #FBFBFD;
     --color-extra04: #1A1A1A;
     --color-extra05: #242424;
-    
+
     //Border-radius
     --border-width: 2px;
     --radius-small: 6px;
     --radius: 10px;
     --radius-big: 16px;
 
-   
+
 
     //Font weight
     //primary font
@@ -94,14 +94,14 @@
 
 
     //Shadows
-    --shadow-primary: 0 0 20px 5px rgba(251,83,67, 0.20);
+    --shadow-primary: 0 0 20px 5px rgba(251, 83, 67, 0.10);
     --shadow-light: 1px 1px 6px rgba(0, 0, 0, 0.25);
     --shadow-lighter: 4px 4px 20px 20px rgba(0, 0, 0, 0.01);
 
 
     //transition easing
     --transition: 0.3s;
-    --transition-transform: transform .65s cubic-bezier(.23,1,.32,1);
+    --transition-transform: transform .65s cubic-bezier(.23, 1, .32, 1);
 
     //Font Family
     --font-primary: 'Inter', sans-serif;
@@ -109,7 +109,7 @@
     --font-awesome: 'Font Awesome 5 Pro';
 
 
-    
+
     //Fonts Size
     --font-size-b1: 18px;
     --font-size-b2: 16px;
@@ -136,8 +136,7 @@ $smlg-device: 'only screen and (max-width: 1199px)';
 $extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
 $laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
 $lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
-$md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
-$sm-layout:'only screen and (max-width: 767px)';
+$md-layout: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm-layout: 'only screen and (max-width: 767px)';
 $large-mobile: 'only screen and (max-width: 575px)';
 $small-mobile: 'only screen and (max-width: 479px)';
-

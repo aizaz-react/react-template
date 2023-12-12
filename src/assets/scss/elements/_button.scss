@@ -34,19 +34,21 @@ button {
         letter-spacing: 0.5px;
         width: auto;
 
-        
+
 
         &.btn-icon {
             .icon {
                 position: relative;
                 top: -1px;
                 padding-left: 4px;
+
                 svg {
                     width: 20px;
                     height: 20px;
                 }
             }
         }
+
         &:hover {
             box-shadow: var(--shadow-primary);
             -webkit-filter: brightness(125%);
@@ -54,6 +56,7 @@ button {
             color: var(--color-white);
             text-decoration: none;
         }
+
         &.btn-small {
             height: 40px;
             line-height: 36px;
@@ -61,45 +64,54 @@ button {
             font-size: 14px;
             font-weight: 500;
         }
+
         &.btn-medium {
             height: 65px;
             line-height: 63px;
             padding: 0 40px;
+
             @media #{$sm-layout} {
                 padding: 0 30px;
             }
         }
+
         &.btn-large {
             height: 60px;
             line-height: 56px;
             padding: 0 37px;
             font-size: 17px;
+
             @media #{$sm-layout} {
                 padding: 0 30px;
             }
         }
+
         &.btn-extra-large {
             height: 90px;
             line-height: 90px;
             padding: 0 70px;
             font-size: 20px;
+
             @media #{$sm-layout} {
                 padding: 0 44px;
             }
         }
+
         &.btn-border {
             background-image: inherit;
             border-color: var(--color-border);
             border-width: 2px;
             border-style: solid;
+
             &:hover {
-                background-color: var(--color-secondary);
-                border-color: var(--color-secondary);
+                background: var(--color-secondary);
             }
         }
+
         &.text-underline {
             background-image: inherit;
             border-color: var(--color-white);
+
             span {
                 position: relative;
                 display: inline-block;
@@ -147,11 +159,13 @@ button {
             line-height: 100px;
             font-size: 30px;
             display: inline-block;
+
             @media #{$sm-layout} {
                 width: 70px;
                 height: 70px;
                 line-height: 70px;
             }
+
             span {
                 svg {
                     position: relative;
@@ -211,6 +225,7 @@ button {
     &:hover {
         span {
             color: var(--color-primary);
+
             &::before {
                 width: 100%;
                 left: 0;
@@ -245,6 +260,7 @@ button {
     position: relative;
     z-index: 2;
     letter-spacing: 0.5px;
+
     &::before {
         background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%;
         content: "";
